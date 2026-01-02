@@ -1,5 +1,7 @@
-import { FaCss3Alt, FaHtml5, FaJs, FaLaravel, FaPhp, FaReact } from "react-icons/fa";
-import { SiMysql, SiN8N, SiNetlify, SiTailwindcss } from "react-icons/si";
+import { FaCss3Alt, FaHtml5, FaJs, FaLaravel, FaPhp, FaReact, FaWordpress } from "react-icons/fa";
+import { SiMysql, SiN8N, SiNetlify, SiPwa, SiTailwindcss } from "react-icons/si";
+
+// Nota: He añadido FaWordpress y SiPwa a los imports por si los quieres usar en la sección de Skills visuales más adelante.
 
 export const portfolioData = {
   personal: {
@@ -22,19 +24,58 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "Turnine",
-      description: "Sistema de gestión de turnos optimizado.",
-      tech: ["Laravel", "MySQL", "Bootstrap"],
-      link: "https://turnine.mostrodev.com",
-      image: "https://placehold.co/600x400/1F2937/FFFFFF?text=Turnine+Screenshot" // Placeholder temporal
+      title: "Mostrodev.com",
+      role: "Fundador & Director (2022-2026)",
+      description: "Agencia digital que fundé y dirigí. Lideré estrategias de desarrollo web, SEO y diseño para múltiples clientes antes de mi etapa actual como freelancer.",
+      tech: ["Wordpress", "Gestión de Proyectos", "SEO", "CSS3"],
+      link: "https://mostrodev.com",
+      // Recuerda cambiar la URL de la imagen cuando tengas la captura real
+      image: "/images/mostrodev.png"
     },
     {
       id: 2,
+      title: "FactuPrint",
+      role: "Desarrollador Frontend",
+      description: "PWA (Progressive Web App) para la creación e impresión ágil de presupuestos. Permite guardar datos localmente y generar PDFs profesionales desde el móvil.",
+      tech: ["React", "PWA", "Local Storage", "PDF Generation"],
+      link: "https://factuprint.netlify.app/",
+      image: "/images/factuprint.png"
+    },
+    {
+      id: 3,
+      title: "MyWebStudies",
+      role: "Colaborador Técnico",
+      description: "Desarrollo integral del Home, integración de base de datos para vistas dinámicas de cursos, y configuración de cumplimiento legal (RGPD/Consentimiento) y certificaciones.",
+      tech: ["Backend Integration", "Compliance Legal", "UI/UX", "DB Views"],
+      link: "https://www.mywebstudies.com/",
+      image: "/images/mywebstudie.png"
+    },
+    {
+      id: 4,
+      title: "FutbolTop (efutmerce)",
+      role: "Desarrollador Full Stack",
+      description: "Plataforma de comercio electrónico de nicho enfocada en el fútbol. Implementación de catálogo y lógica de e-commerce.",
+      tech: ["React", "Netlify", "E-commerce Logic"],
+      link: "https://efutmerce.netlify.app",
+      image: "/images/efutmerce.png"
+    },
+    {
+      id: 5,
+      title: "Turnine",
+      role: "Desarrollador Full Stack",
+      description: "Sistema de gestión de turnos optimizado para mejorar la eficiencia operativa.",
+      tech: ["Laravel", "MySQL", "Bootstrap"],
+      link: "https://turnine.mostrodev.com",
+      image: "/images/turnine.png"
+    },
+    {
+      id: 6,
       title: "Menuvisu",
-      description: "Plataforma digital para visualización de menús.",
+      role: "Desarrollador Frontend",
+      description: "Plataforma digital moderna para la visualización de menús de restaurantes mediante códigos QR.",
       tech: ["React", "Firebase", "Tailwind"],
       link: "https://menuvisu.mostrodev.com",
-      image: "https://placehold.co/600x400/3B82F6/FFFFFF?text=Menuvisu+Screenshot" // Placeholder temporal
+      image: "/images/menuvisu.png"
     }
   ]
 };

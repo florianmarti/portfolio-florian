@@ -25,8 +25,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
-          Florian.dev
+        <a href="/" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
+          Portfolio Florian Marti
         </a>
 
         {/* Enlaces de Escritorio + Botón Dark Mode */}
