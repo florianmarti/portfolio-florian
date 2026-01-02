@@ -1,6 +1,7 @@
 import { FaArrowDown, FaServer, FaTerminal } from 'react-icons/fa';
 import React, { useState } from 'react';
 import { SiGmail, SiN8N, SiNetlify } from 'react-icons/si';
+
 import { motion } from 'framer-motion';
 
 const AutomationDemo = () => {
@@ -169,7 +170,7 @@ const AutomationDemo = () => {
                     onClick={scrollToContact}
                     className="w-full py-2 rounded-lg font-medium transition-all flex items-center justify-center gap-2 text-xs text-gray-400 hover:text-white hover:bg-white/10"
                 >
-                    <FaArrowDown /> Probar el Sistema Real Abajo
+                    <FaArrowDown /> Probar el Sistema Real Arriba en el formulario
                 </button>
               </div>
 
