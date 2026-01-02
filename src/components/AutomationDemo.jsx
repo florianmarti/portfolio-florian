@@ -47,7 +47,7 @@ const AutomationDemo = () => {
     addLog("💾 Netlify Forms: Backup de seguridad creado.", 5200);
     
     setTimeout(() => {
-        addLog("🚀 ¡Ciclo completado! (Pruébalo real arriba)", 0);
+        addLog("🚀 ¡Ciclo completado! (Pruébalo real en el formulario)", 0);
         setIsLoading(false);
     }, 6000);
   };
@@ -170,7 +170,7 @@ const AutomationDemo = () => {
                     onClick={scrollToContact}
                     className="w-full py-2 rounded-lg font-medium transition-all flex items-center justify-center gap-2 text-xs text-gray-400 hover:text-white hover:bg-white/10"
                 >
-                    <FaArrowDown /> Probar el Sistema Real Arriba en el formulario
+                    <FaArrowDown /> Probar el Sistema Real en el formulario
                 </button>
               </div>
 
